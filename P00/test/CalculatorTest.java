@@ -75,7 +75,7 @@ public class CalculatorTest {
 		Calculator cal = new Calculator();
 				
 		//Act
-		int actual = cal.multiply(a, b);
+		int actual = cal.divide(a, b);
 		
 		//Assert
 		int expected = 1;
